@@ -15,3 +15,4 @@ while contador <= sequencia:
     contador +=1
 print("Finalizado")
 print("~~"*15)
+print("Muito obrigado por usar o programa, volte sempre")
