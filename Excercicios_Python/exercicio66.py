@@ -1,4 +1,4 @@
-# Crie um programa que leia vários números inteiros pelo teclado. O programa só vai parar quando o usuário digitar o valor 999
+# Crie um programa que leia vários números inteiros pelo teclado. O programa só vai parar quando o usuário digitar o valor 999.
 # No final, mostre quantos números foram digitados e qual foi a soma entre elas.
 
 c = n  = 0
