@@ -7,5 +7,6 @@ while True:
             c += 1
         else:
             print("Muito obrigado por usar a tabuada!!")
+            print("Ate a proxima!!")
             break
     print("-" * 30)
