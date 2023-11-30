@@ -9,4 +9,5 @@ while True:
             print("Muito obrigado por usar a tabuada!!")
             print("Ate a proxima!!")
             break
+            
     print("-" * 30)
