@@ -30,3 +30,4 @@ print("---"*15)
 friends2 = friends.copy()
 
 print(friends2)
+print(friends2)
