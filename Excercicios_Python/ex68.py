@@ -4,7 +4,6 @@ print(sorteio)
 print("-" * 30)
 while True:
     escolha = int(input("Digite um numero"))
-        escolha = int(input("Digite um numero"))
 
     
 
