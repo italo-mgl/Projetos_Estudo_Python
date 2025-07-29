@@ -29,13 +29,18 @@ print("Menor idade:", min(idades))
 print("Maior idade:", max(idades))
 
 
-caracteristicas2 = [
+Teo = [
     "Teo Calvo",
-    32, True, "Casado",
-    ["Estagiario", "Junior", "Pleno", "Senior"],
+    32,
+    True,
+    "Casado",
+    ["Estagiario", "Junior", "Pleno", "Senior", "Head"],
+    [1500, 4000, 4550, 6500, 10000],
     ["Ana", "Maria","Claudia"]
     ]
 
-print(caracteristicas2[len(caracteristicas2)-1][0])
+print(Teo[len(Teo)-1][0])
 
-exs = caracteristicas2[]
+print(Teo[4][-2:])
+
+print(Teo[5][::-1])
