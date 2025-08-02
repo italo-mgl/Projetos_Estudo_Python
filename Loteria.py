@@ -1,39 +1,46 @@
-
-numero_sorteio = 7
-numero_usuario = int(input("Entre com um valor: "))
-contador = 1
-while numero_sorteio != numero_usuario and contador < 3:
-    if numero_usuario > numero_sorteio:
-        print("Numero acima do valor, tente novamente.")
-    else:
-        print("Numero muito baixo. Tente novamente.")
-    numero_usuario = int(input("Entre com um valor: "))
-    contador += 1
-if numero_sorteio == numero_usuario:
-    print("Parabéns! Você acertou o numero premiado.")
-else:
-    print("Suas tentativas acabaram. O número premiado era", numero_sorteio)
+# Construa um programa que realiza o sorteio de um número entre 1 e 15.
+# O usuário terá 3 chances de acertar o valor.
+# A cada tentativa você deve informar se o chute e maior ou menor que o número sorteado.
+# Caso o usuário acerte, dê os parabéns.
 
 
-#######
 
-numero_sorteio = 7
+import random
 
-for i in range(3):
-    
-    numero_usuario = int(input("Entre com um numero: "))
-    if not 1 <= numero_usuario <-= 15:
-        continue
+def get_input():
+    while True:
+        try:
+            numero_usuario = int(input("Entre com um numero: "))
 
-    if numero_sorteio == numero_usuario:
+        except ValueError as erro:
+            print("Valor inválido, tente novamente!")
+            continue
+
+        if 1 <= numero_usuario <= 15:
+            return numero_usuario
+
+        print("Valor inválido! O valor deve ser entre 1 e 15.")
+
+def check_numerbs(sorteio, usuario):
+
+    if sorteio == usuario:
         print("Parabéns, voce se garantiu e acertou o numero!!")
-        break
+        return True
 
-    elif numero_usuario > numero_sorteio:
+    elif usuario > sorteio:
         print("Numero muito alto. Tente novamente com um menor!")
 
     else:
         print("Numero Muito baixo, tente com um numero maior!!")
+
+numero_sorteio = random.randint(1,15)
+
+for i in range(3):
+
+    numero_usuario = get_input()
+
+    if check_numerbs(sorteio=numero_sorteio, usuario=numero_usuario):
+        break
 
 else:
     print("Suas tentativas acabaram!!")
