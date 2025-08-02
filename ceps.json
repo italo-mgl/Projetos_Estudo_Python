@@ -1,0 +1,47 @@
+[
+    {
+        "cep": "60540-121",
+        "logradouro": "Rua Tucunduba",
+        "complemento": "",
+        "unidade": "",
+        "bairro": "Granja Lisboa",
+        "localidade": "Fortaleza",
+        "uf": "CE",
+        "estado": "Ceará",
+        "regiao": "Nordeste",
+        "ibge": "2304400",
+        "gia": "",
+        "ddd": "85",
+        "siafi": "1389"
+    },
+    {
+        "cep": "60415-580",
+        "logradouro": "Rua Antônio Mendes",
+        "complemento": "",
+        "unidade": "",
+        "bairro": "Jardim América",
+        "localidade": "Fortaleza",
+        "uf": "CE",
+        "estado": "Ceará",
+        "regiao": "Nordeste",
+        "ibge": "2304400",
+        "gia": "",
+        "ddd": "85",
+        "siafi": "1389"
+    },
+    {
+        "cep": "60540-255",
+        "logradouro": "Rua Bom Jesus",
+        "complemento": "de 1848/1849 a 2716/2717",
+        "unidade": "",
+        "bairro": "Granja Lisboa",
+        "localidade": "Fortaleza",
+        "uf": "CE",
+        "estado": "Ceará",
+        "regiao": "Nordeste",
+        "ibge": "2304400",
+        "gia": "",
+        "ddd": "85",
+        "siafi": "1389"
+    }
+]
